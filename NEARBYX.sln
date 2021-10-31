@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEARBYX", "NEARBYX\NEARBYX.csproj", "{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2DA8FD1-011C-484F-989F-64EE89FAE39A}
+	EndGlobalSection
+EndGlobal
