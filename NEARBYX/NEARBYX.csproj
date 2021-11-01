@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BlazorGoogleMaps\GoogleMapsComponents\GoogleMapsComponents.csproj" />
+    <ProjectReference Include="..\MapParts\GoogleMapsComponents.csproj" />
   </ItemGroup>
 
 </Project>

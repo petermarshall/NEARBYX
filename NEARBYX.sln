@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEARBYX", "NEARBYX\NEARBYX.csproj", "{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleMapsComponents", "..\BlazorGoogleMaps\GoogleMapsComponents\GoogleMapsComponents.csproj", "{93A09F36-13F4-4832-9344-F1B2C8F53183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleMapsComponents", "MapParts\GoogleMapsComponents.csproj", "{C439F2F5-342D-46D1-8560-A04629744A18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A3F2C6-0CCE-4B43-BFBD-CC817BC536EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93A09F36-13F4-4832-9344-F1B2C8F53183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93A09F36-13F4-4832-9344-F1B2C8F53183}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93A09F36-13F4-4832-9344-F1B2C8F53183}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93A09F36-13F4-4832-9344-F1B2C8F53183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C439F2F5-342D-46D1-8560-A04629744A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C439F2F5-342D-46D1-8560-A04629744A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C439F2F5-342D-46D1-8560-A04629744A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C439F2F5-342D-46D1-8560-A04629744A18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
