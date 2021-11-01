@@ -1,0 +1,59 @@
+﻿@using System
+@using Maps
+@using System.Threading.Tasks
+@using Microsoft.AspNetCore.Components
+
+@inherits MapComponent
+@implements System.IDisposable
+
+<div @ref="@Element" id="@Id" class="@CssClass" style="@StyleStr"></div>
+
+@code {
+    #nullable enable
+
+    [Parameter]
+    public string? Id { get; set; }
+
+    [Parameter]
+    public MapOptions? Options { get; set; }
+
+    [Parameter]
+    public EventCallback OnAfterInit { get; set; }
+
+    [Parameter]
+    public string? CssClass { get; set; }
+
+    private string _height = "500px";
+
+    /// <summary>
+    /// Default height 500px
+    /// Used as style atribute "height: {Height}"
+    /// </summary>
+    [Parameter]
+    public string Height
+    {
+        get => _height;
+        set => _height = value ?? "500px";
+    }
+
+    private string StyleStr => $"height: {Height};";
+
+    private ElementReference Element { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+
+        await InitAsync(Element, Options);
+
+        //Debug.WriteLine("Init finished");
+
+        await OnAfterInit.InvokeAsync(null);
+    }
+
+    protected override bool ShouldRender()
+    {
+        return false;
+    }
+
+
+}
